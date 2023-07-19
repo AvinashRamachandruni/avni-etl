@@ -35,6 +35,7 @@ public class EtlServiceIntegrationTest extends BaseIntegrationTest {
         assertThat(countOfRowsIn("orgc.person_nutrition_exit"), equalTo(1L));
         assertThat(countOfRowsIn("orgc.person_nutrition_growth_monitoring"), equalTo(1L));
         assertThat(countOfRowsIn("orgc.person_nutrition_growth_monitoring_cancel"), equalTo(1L));
+        //add tests for sync_tele
     }
 
     private Long countOfRowsIn(String tableName) {

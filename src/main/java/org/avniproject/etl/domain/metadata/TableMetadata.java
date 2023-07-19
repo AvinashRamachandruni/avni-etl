@@ -245,6 +245,7 @@ public class TableMetadata extends Model {
         IndividualEncounterCancellation,
         Address,
         Media,
+        SyncTelemetry,
         ManualProgramEnrolmentEligibility,
         GroupToMember,
         HouseholdToMember,
