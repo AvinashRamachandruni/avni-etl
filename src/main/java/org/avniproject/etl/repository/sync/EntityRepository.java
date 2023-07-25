@@ -22,6 +22,7 @@ public class EntityRepository {
                             AnswerConceptSync answerConceptSync,
                             MediaTableSyncAction mediaTableSyncAction,
                             SyncTelemetryTableSyncAction syncTelemetryTableSyncAction,
+                            UserTableSyncAction userTableSyncAction,
                             RepeatableQGTransactionTablesSyncAction repeatableQGTransactionTablesSyncAction) {
         entitySyncRepositories.add(transactionalTablesSyncAction);
         entitySyncRepositories.add(addressTableSyncAction);
@@ -30,6 +31,7 @@ public class EntityRepository {
         entitySyncRepositories.add(answerConceptSync);
         entitySyncRepositories.add(mediaTableSyncAction);
         entitySyncRepositories.add(syncTelemetryTableSyncAction);
+        entitySyncRepositories.add(userTableSyncAction);
         entitySyncRepositories.add(repeatableQGTransactionTablesSyncAction);
     }
 
